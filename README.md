@@ -1,7 +1,7 @@
 # We-Rate-Dogs
 ### by David Alobo
 
-#Introduction
+# Introduction
 
 The aim of this project is to wrangle WeRateDogs Twitter data to create interesting and trustworthy analyses and visualizations. All wrangling effort was documented in a Jupyter Notebook, and showcased through analyses and visualizations using Python (and its libraries) and/or SQL.
 
@@ -32,13 +32,9 @@ The twitter_archive_enhanced datasets has a total number of 2356 rows and 17 col
 
 The visual below describes the twitter_archive_enhanced dataset. It shows us the total number of values in each columns. This analysis was made to enable us know the number of missing values we are to deal with.
 
-image.png
-
 Furthermore, I checked for outliers which there was none present.
 
-image.png
-
-THe image_predictions dataset has a total of 2075 rows and 12 columns. The following are the columns title of the image_predictions dataset: 'tweet_id', 'jpg_url', 'img_num', 'p1', 'p1_conf', 'p1_dog', 'p2', 'p2_conf', 'p2_dog', 'p3', 'p3_conf', 'p3_dog'. It was further discovered that 281 tweets were without images. The total number of images tweeted is 2498.
+The image_predictions dataset has a total of 2075 rows and 12 columns. The following are the columns title of the image_predictions dataset: 'tweet_id', 'jpg_url', 'img_num', 'p1', 'p1_conf', 'p1_dog', 'p2', 'p2_conf', 'p2_dog', 'p3', 'p3_conf', 'p3_dog'. It was further discovered that 281 tweets were without images. The total number of images tweeted is 2498.
 
 There are no duplicates record in the datasets.
 
