@@ -25,14 +25,13 @@ Twitter API: This contains the omitted data - retweet count and favorite count a
 
 The 3 datasets explored in this project are:
 
-twitter_archive_enhanced
-image_predictions
-tweet_json
+- twitter_archive_enhanced
+- image_predictions
+- tweet_json
+- 
 The twitter_archive_enhanced datasets has a total number of 2356 rows and 17 columns. The denominator_rating which is supposed to be 10 was found out to have the following values: 10, 0, 15, 70, 7, 11, 150, 170, 20, 50, 90, 80, 40, 130, 110, 16, 120, 2. These numbers were replaced with 10.
 
-The visual below describes the twitter_archive_enhanced dataset. It shows us the total number of values in each columns. This analysis was made to enable us know the number of missing values we are to deal with.
-
-Furthermore, I checked for outliers which there was none present.
+There were no outliers present in the twitter_archive_enhanced dataset.
 
 The image_predictions dataset has a total of 2075 rows and 12 columns. The following are the columns title of the image_predictions dataset: 'tweet_id', 'jpg_url', 'img_num', 'p1', 'p1_conf', 'p1_dog', 'p2', 'p2_conf', 'p2_dog', 'p3', 'p3_conf', 'p3_dog'. It was further discovered that 281 tweets were without images. The total number of images tweeted is 2498.
 
